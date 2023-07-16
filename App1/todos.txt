@@ -1,7 +1,3 @@
-Clean oven
-Make  ketchup
-Make pizza
-Make sauce
-Fix and Debug
-Make Oregano
-Make
+Clean Oven
+Make 
+Make Sauce
