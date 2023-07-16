@@ -7,13 +7,13 @@ sg.theme("DarkPurple3")
 clock = sg.Text('', key='Clock', text_color="orange")
 label = sg.Text("Type in a To-Do", text_color="black")
 input_box = sg.InputText(tooltip="Enter todo", key="ib")
-add_button = sg.Button("Add", size=10, mouseover_colors="purple", pad=20, border_width=5)
+add_button = sg.Button(key="Add", size=20, mouseover_colors="purple", pad=20, border_width=3, image_source="add.png")
 list_box = sg.Listbox(values=functions.read_todos(),
                       key="lb",
                       enable_events=True,
                       size=(45, 10))
 edit_button = sg.Button("Edit", mouseover_colors="purple", size=8, border_width=5)
-complete_button = sg.Button("Complete", mouseover_colors="black", border_width=5)
+complete_button = sg.Button(key="Complete", mouseover_colors="black", border_width=3, image_source="complete.png")
 exit_button = sg.Button("Exit",size=10, mouseover_colors="purple", pad=10, border_width=5)
 
 window = sg.Window("My To-Do App",
